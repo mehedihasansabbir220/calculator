@@ -1,0 +1,94 @@
+@import '../css/color.css';
+
+.calculator {
+    background-color: var(--blackvampire);
+    border-radius: 10px;
+}
+
+.lightcalculator {
+    background-color: var(--lightyellow);
+    color: var(--blackvampire);
+}
+
+.monitor {
+    text-align: right;
+    margin: 40px 15px 0 0;
+    font-size: 45px;
+}
+
+.monitor .prevmonitor {
+    font-size: 20px;
+    color: var(--davygrey);
+}
+
+.monitor p {
+    margin: 0;
+}
+
+.theme {
+    text-align: right;
+    padding-top: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.theme .lighticon {
+    color: var(--blackvampire);
+}
+
+.calcbtnContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: auto;
+    gap: 5px;
+    padding: 10px;
+}
+
+.calcbtnContainer button {
+    border-radius: 10px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btndavygrey {
+    background-color: var(--davygrey);
+    color: var(--antiflashwhite);
+}
+
+.btnred {
+    background-color: var(--lightred);
+    border-color: var(--melon);
+    color: var(--blackvampire);
+}
+
+.btngrey {
+    background-color: var(--gray);
+    color: var(--antiflashwhite);
+}
+
+.btnyellow {
+    background-color: var(--paleyellow);
+    border-color: var(--melon);
+    color: var(--blackvampire);
+}
+
+.btnzero {
+    grid-column: 1/3;
+}
+
+.btndot {
+    grid-column: 3/4;
+}
+
+.btntotal {
+    color: var(--antiflashwhite);
+    background-color: var(--spirodisco);
+    font-weight: 700;
+}
+
+.btntotallight {
+    color: var(--blackvampire);
+    background-color: var(--tangerineyellow);
+    border-color: var(--melon);
+}

@@ -1,5 +1,5 @@
 
-import styles from './calculator.module.scss'
+import styles from './calculator.module.css'
 import cx from 'classnames'
 import { FiMoon, FiSun } from 'react-icons/fi'
 
